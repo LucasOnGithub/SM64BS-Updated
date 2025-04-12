@@ -1,6 +1,8 @@
 # SM64BS
 A Beat Saber mod that uses a modified version of [libsm64](https://github.com/ckosmic/libsm64/tree/changes) and [libsm64-unity](https://github.com/ckosmic/libsm64-unity/tree/changes) to put Mario in the game.
 
+## This will not work on FPFC! 
+
 ## Installation and Basics
 1. Install SiraUtil, BSML, and the mod.
 2. Place your copy of the US SM64 ROM in your Beat Saber directory and rename it to `baserom.us.z64`.
