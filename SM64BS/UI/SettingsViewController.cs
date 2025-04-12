@@ -5,6 +5,7 @@ using BeatSaberMarkupLanguage.Components.Settings;
 using BeatSaberMarkupLanguage.ViewControllers;
 using HMUI;
 using IPA.Utilities;
+using HarmonyLib;
 using LibSM64;
 using SM64BS.Attributes;
 using SM64BS.Behaviours;
@@ -60,10 +61,10 @@ namespace SM64BS.UI
 
         [UIValue("name")]
         public string Name
-        { 
+        {
             get { return Plugin.Settings.MarioName; }
             set
-            { 
+            {
                 Plugin.Settings.MarioName = value;
                 _marioManager.namePlate.SetNamePlateText(value);
             }
@@ -92,7 +93,7 @@ namespace SM64BS.UI
         }
         [UIValue("blue")]
         public Color Blue
-        { 
+        {
             get { return Plugin.Settings.MarioColors[1]; }
             set { ApplyColor(1, value); }
         }
@@ -184,39 +185,39 @@ namespace SM64BS.UI
 
         private void SetupPluginsList()
         {
-            _pluginsListData.data.Clear();
+            var dataList = (List<CustomListTableData.CustomCellInfo>)AccessTools.Field(typeof(CustomListTableData), "data").GetValue(_pluginsListData);
+            var tableView = (TableView)AccessTools.Field(typeof(CustomListTableData), "tableView").GetValue(_pluginsListData);
 
-            CustomListTableData.CustomCellInfo defaultCellInfo = new CustomListTableData.CustomCellInfo("Nothing", "Disable plugins", null);
-            _pluginsListData.data.Add(defaultCellInfo);
+            dataList.Clear();
+
+            dataList.Add(new CustomListTableData.CustomCellInfo("Nothing", "Disable plugins", null));
 
             foreach (CustomPlugin plugin in Plugin.LoadedCustomPlugins.Values)
             {
-                CustomListTableData.CustomCellInfo customCellInfo = new CustomListTableData.CustomCellInfo(plugin.Name, plugin.Author, null);
-                _pluginsListData.data.Add(customCellInfo);
+                dataList.Add(new CustomListTableData.CustomCellInfo(plugin.Name, plugin.Author, null));
             }
 
-            _pluginsListData.tableView.ReloadData();
+            tableView.ReloadData();
             int selectedPluginIndex = Plugin.Settings.SelectedPluginIndex;
 
-            foreach (LevelListTableCell cell in _pluginsListData.tableView.visibleCells)
+            foreach (LevelListTableCell cell in tableView.visibleCells)
             {
                 Destroy(cell.GetField<Image, LevelListTableCell>("_coverImage").gameObject);
                 cell.GetField<TextMeshProUGUI, LevelListTableCell>("_songNameText").transform.localPosition = new Vector3(-28.5f, -3.05f);
                 cell.GetField<TextMeshProUGUI, LevelListTableCell>("_songAuthorText").transform.localPosition = new Vector3(-28.5f, -5.85f);
             }
 
-            // Remove skew/italics
-            foreach (ImageView iv in _pluginsListData.tableView.GetComponentsInChildren<ImageView>(true))
+            foreach (ImageView iv in tableView.GetComponentsInChildren<ImageView>(true))
             {
                 iv.SetField("_skew", 0.0f);
             }
-            foreach (CurvedTextMeshPro tm in _pluginsListData.tableView.GetComponentsInChildren<CurvedTextMeshPro>(true))
+            foreach (CurvedTextMeshPro tm in tableView.GetComponentsInChildren<CurvedTextMeshPro>(true))
             {
                 tm.fontStyle = TMPro.FontStyles.Normal;
             }
 
-            _pluginsListData.tableView.ScrollToCellWithIdx(selectedPluginIndex, TableView.ScrollPositionType.Beginning, false);
-            _pluginsListData.tableView.SelectCellWithIdx(selectedPluginIndex);
+            tableView.ScrollToCellWithIdx(selectedPluginIndex, TableView.ScrollPositionType.Beginning, false);
+            tableView.SelectCellWithIdx(selectedPluginIndex);
         }
 
         [UIAction("close-modal")]
@@ -283,7 +284,10 @@ namespace SM64BS.UI
         {
             _modal.Show(true);
             transform.Find("Blocker").localScale = new Vector3(1.5f, 2.0f, 1.0f);
-            _basicUIAudioManager.HandleButtonClickEvent();
+
+            var clickSound = (AudioClip)AccessTools.Field(typeof(BasicUIAudioManager), "_buttonClickSound").GetValue(_basicUIAudioManager);
+            var source = _basicUIAudioManager.GetComponent<AudioSource>();
+            source.PlayOneShot(clickSound);
 
             foreach (ImageView iv in gameObject.GetComponentsInChildren<ImageView>(true))
             {
@@ -298,9 +302,10 @@ namespace SM64BS.UI
                 tm.transform.localPosition = Vector3.zero;
             }
 
+            var tableView = (TableView)AccessTools.Field(typeof(CustomListTableData), "tableView").GetValue(_pluginsListData);
             int selectedPluginIndex = Plugin.Settings.SelectedPluginIndex;
-            _pluginsListData.tableView.SelectCellWithIdx(selectedPluginIndex);
-            Select(_pluginsListData.tableView, selectedPluginIndex);
+            tableView.SelectCellWithIdx(selectedPluginIndex);
+            Select(tableView, selectedPluginIndex);
         }
 
         public void HideModal(bool animated)

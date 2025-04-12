@@ -17,7 +17,7 @@ namespace SM64BS.Patches
         [Inject] private BuiltInPluginLoader _builtInPluginLoader;
 
         [AffinityPostfix]
-        [AffinityPatch(typeof(SettingsFlowCoordinator), nameof(SettingsFlowCoordinator.ApplySettings))]
+        [AffinityPatch(typeof(SettingsFlowCoordinator), "ApplySettings")]
         internal void Prefix()
         {
             Plugin.Log.Info("Applied settings");
