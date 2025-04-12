@@ -1,0 +1,681 @@
+[DEBUG @ 01:37:59 | IPA/LibraryLoader] Resolving library 0Harmony, Version=2.10.2.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 01:37:59 | IPA] Initializing logger
+[DEBUG @ 01:37:59 | IPA/LibraryLoader] Looking for file 0Harmony.dll
+[DEBUG @ 01:37:59 | IPA/LibraryLoader] Found file 0Harmony.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\0Harmony.dll
+[DEBUG @ 01:37:59 | IPA/LibraryLoader] Resolving library Hive.Versioning, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 01:37:59 | IPA/LibraryLoader] Looking for file Hive.Versioning.dll
+[DEBUG @ 01:37:59 | IPA/LibraryLoader] Found file Hive.Versioning.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\Hive.Versioning.dll
+[DEBUG @ 01:38:00 | IPA/LibraryLoader] Resolving library SemVer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 01:38:00 | IPA/LibraryLoader] Looking for file SemVer.dll
+[DEBUG @ 01:38:00 | IPA/LibraryLoader] Found file SemVer.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\SemVer.dll
+[DEBUG @ 01:38:00 | IPA/Config] Generated impl ReadFrom IPA.Config.SelfConfig<Generated>
+[DEBUG @ 01:38:01 | IPA] SelfConfig Changed called
+[DEBUG @ 01:38:01 | IPA/Config] Generated impl WriteTo IPA.Config.SelfConfig<Generated>
+[DEBUG @ 01:38:01 | IPA/Config] Generated impl ReadFrom IPA.Loader.DisabledConfig<Generated>
+[DEBUG @ 01:38:01 | IPA/LibraryLoader] Resolving library Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[DEBUG @ 01:38:01 | IPA/LibraryLoader] Looking for file Mono.Cecil.dll
+[DEBUG @ 01:38:01 | IPA/LibraryLoader] Found file Mono.Cecil.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\Mono.Cecil.dll
+[DEBUG @ 01:38:01 | IPA] Configuring exit handlers
+[DEBUG @ 01:38:01 | IPA/Injector] Prepping bootstrapper
+[DEBUG @ 01:38:01 | IPA] GameVersion set early to 1.38.0
+[DEBUG @ 01:38:01 | IPA] SelfConfig Changed called
+[DEBUG @ 01:38:01 | IPA/Config] Generated impl WriteTo IPA.Loader.DisabledConfig<Generated>
+[DEBUG @ 01:38:01 | IPA/Config] Generated impl WriteTo IPA.Config.SelfConfig<Generated>
+[DEBUG @ 01:38:01 | IPA/Injector] Finding backup
+[DEBUG @ 01:38:01 | IPA/Injector] Ensuring patch on UnityEngine.CoreModule exists
+[DEBUG @ 01:38:01 | IPA/LibraryLoader] Resolving library Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[DEBUG @ 01:38:01 | IPA/LibraryLoader] Looking for file Ionic.Zip.dll
+[DEBUG @ 01:38:01 | IPA/LibraryLoader] Found file Ionic.Zip.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\Ionic.Zip.dll
+[INFO @ 01:38:01 | IPA/Injector] Installing bootstrapper took 00:00:00.4756039
+[DEBUG @ 01:38:01 | IPA/AntiMalware] Antimalware engine initialized with IPA.AntiMalware.WindowsWin32AntiMalware
+[DEBUG @ 01:38:01 | IPA] Compressing log file A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Logs\2025.04.12.01.23.04.log
+[INFO @ 01:38:02 | IPA] Configuring permissions took 00:00:00.0243498
+[DEBUG @ 01:38:03 | IPA/Loader] Adding info for AdBlocker.dll
+[DEBUG @ 01:38:03 | IPA/Loader] Adding info for AssetBundleLoadingTools.dll
+[WARNING @ 01:38:04 | IPA/Loader/Features] Encountered old features used. They no longer do anything, please move to the new format.
+[DEBUG @ 01:38:04 | IPA/Loader] Adding info for BeatLeader.dll
+[DEBUG @ 01:38:04 | IPA/Loader] Adding info for BeatSaverUpdater.dll
+[DEBUG @ 01:38:04 | IPA/Loader] Adding info for BeatSaverVoting.dll
+[DEBUG @ 01:38:04 | IPA/Loader] Adding info for BeatTogether.dll
+[DEBUG @ 01:38:05 | IPA/Loader] Adding info for BetterSongList.dll
+[DEBUG @ 01:38:05 | IPA/Loader] Adding info for BetterSongSearch.dll
+[DEBUG @ 01:38:06 | IPA/Loader] Adding info for BSML.dll
+[DEBUG @ 01:38:06 | IPA/Loader] Adding info for bsrpc.dll
+[DEBUG @ 01:38:06 | IPA/Loader] Adding info for BS_Utils.dll
+[DEBUG @ 01:38:07 | IPA/Loader] Adding info for CameraUtils.dll
+[DEBUG @ 01:38:07 | IPA/Loader] Adding info for Chirality.dll
+[DEBUG @ 01:38:08 | IPA/Loader] Adding info for Chroma.dll
+[DEBUG @ 01:38:08 | IPA/Loader] Adding info for Counters+.dll
+[DEBUG @ 01:38:09 | IPA/Loader] Adding info for CustomJSONData.dll
+[DEBUG @ 01:38:09 | IPA/Loader] Adding info for CustomNotes.dll
+[DEBUG @ 01:38:09 | IPA/Loader] Adding info for CustomSaberColors.dll
+[DEBUG @ 01:38:10 | IPA/Loader] Adding info for CustomSabersLite.dll
+[DEBUG @ 01:38:10 | IPA/Loader] Adding info for CustomWalls.dll
+[DEBUG @ 01:38:10 | IPA/Loader] Adding info for DataPuller.dll
+[DEBUG @ 01:38:14 | IPA/Loader] Adding info for DiscordCore.dll
+[DEBUG @ 01:38:14 | IPA/Loader] Adding info for EasyOffset.dll
+[DEBUG @ 01:38:14 | IPA/Loader] Adding info for Enhancements.dll
+[DEBUG @ 01:38:14 | IPA/Loader] Adding info for FCPercentage.dll
+[WARNING @ 01:38:14 | IPA/Loader/Features] Encountered old features used. They no longer do anything, please move to the new format.
+[DEBUG @ 01:38:14 | IPA/Loader] Adding info for GottaGoFast.dll
+[DEBUG @ 01:38:15 | IPA/Loader] Adding info for Heck.dll
+[DEBUG @ 01:38:15 | IPA/Loader] Adding info for HighlightBombs.dll
+[INFO @ 01:38:15 | IPA/Injector] Applying anti-yeet patch
+[DEBUG @ 01:38:15 | IPA/Loader] Adding info for HitScoreVisualizer.dll
+[DEBUG @ 01:38:16 | IPA/Loader] Adding info for IForgor.dll
+[DEBUG @ 01:38:16 | IPA/Loader] Adding info for IntroSkip.dll
+[DEBUG @ 01:38:16 | IPA/Loader] Adding info for JDFixer.dll
+[DEBUG @ 01:38:16 | IPA/Loader] Adding info for KeepMyOverridesPls.dll
+[DEBUG @ 01:38:17 | IPA/Loader] Adding info for LeaderboardCore.dll
+[DEBUG @ 01:38:17 | IPA/Loader] Adding info for MappingExtensions.dll
+[DEBUG @ 01:38:17 | IPA/Loader] Adding info for MenuSaberColors.dll
+[DEBUG @ 01:38:18 | IPA/Loader] Adding info for MultiplayerCore.dll
+[DEBUG @ 01:38:18 | IPA/Loader] Adding info for MultiplayerMirror.dll
+[DEBUG @ 01:38:19 | IPA/Loader] Adding info for NoodleExtensions.dll
+[DEBUG @ 01:38:19 | IPA/Loader] Adding info for NoteCutGuide.dll
+[DEBUG @ 01:38:19 | IPA/Loader] Adding info for ParticleOverdrive.dll
+[DEBUG @ 01:38:19 | IPA/Loader] Adding info for PBOT.dll
+[DEBUG @ 01:38:19 | IPA/Loader] Adding info for PlaylistManager.dll
+[DEBUG @ 01:38:20 | IPA/Loader] Adding info for PPCounter.dll
+[DEBUG @ 01:38:20 | IPA/Loader] Adding info for ScoreSaber.dll
+[DEBUG @ 01:38:20 | IPA/Loader] Adding info for SimpleClock.dll
+[DEBUG @ 01:38:21 | IPA/Loader] Adding info for SiraUtil.dll
+[DEBUG @ 01:38:21 | IPA/Loader] Adding info for SliceDetails.dll
+[DEBUG @ 01:38:21 | IPA/Loader] Adding info for SM64BS.dll
+[DEBUG @ 01:38:22 | IPA/Loader] Adding info for SongCore.dll
+[DEBUG @ 01:38:22 | IPA/Loader] Adding info for SongPlayHistory.dll
+[DEBUG @ 01:38:22 | IPA/Loader] Adding info for SongRankedBadge.dll
+[DEBUG @ 01:38:22 | IPA/Loader] Adding info for TimeSyncStutterFix.dll
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for Tweaks55.dll
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for WhyIsThereNoLeaderboard.dll
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest BeatSaberPlaylistsLib.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest BeatSaverSharp.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest DiscordGameSDK.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest INIParser.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest LookupID.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest protobuf-net.manifest
+[WARNING @ 01:38:23 | IPA/Loader/Features] Encountered old features used. They no longer do anything, please move to the new format.
+[WARNING @ 01:38:23 | IPA/Loader] Bare manifest ScoreSaberSharp.manifest does not declare any files. Dependency resolution and verification cannot be completed.
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest ScoreSaberSharp.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest SixLabors.ImageSharp.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest SongDetailsCache.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest System.IO.Compression.FileSystem.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest System.IO.Compression.manifest
+[DEBUG @ 01:38:23 | IPA/Loader] Adding info for bare manifest websocket-sharp.manifest
+[INFO @ 01:38:23 | IPA/Loader] Loading metadata took 00:00:21.3343543
+[DEBUG @ 01:38:23 | IPA/Loader/Features] Executing DefineFeature Init
+[DEBUG @ 01:38:23 | IPA/Loader/Features] Executing DefineFeature Init
+[DEBUG @ 01:38:23 | IPA/Loader/Features] Executing DefineFeature Init
+[WARNING @ 01:38:23 | IPA/Loader/Features] No such feature SiraLocalizer.LocalizedPlugin
+[INFO @ 01:38:23 | IPA/Loader] Calculating load order took 00:00:00.0199021
+[DEBUG @ 01:38:23 | IPA/Config] Generated impl WriteTo IPA.Loader.DisabledConfig<Generated>
+[DEBUG @ 01:38:23 | IPA] Plugins loaded
+[DEBUG @ 01:38:23 | IPA] Beat Saber IPA(BSIPA@4.3.5)() from 'IPA.exe', BeatSaberMarkupLanguage(BeatSaberMarkupLanguage@1.12.3+bs.1.37.4)(BeatSaberMarkupLanguage.Plugin) from 'Plugins\BSML.dll', SiraUtil(SiraUtil@3.1.12)(SiraUtil.Plugin) from 'Plugins\SiraUtil.dll', JDFixer(JDFixer@7.3.0)(JDFixer.Plugin) from 'Plugins\JDFixer.dll', System.IO.Compression(System.IO.Compression@4.6.57)() from 'Plugins\System.IO.Compression.manifest', System.IO.Compression.FileSystem(System.IO.Compression.FileSystem@4.7.3056)() from 'Plugins\System.IO.Compression.FileSystem.manifest', SongCore(SongCore@3.14.15)(SongCore.Plugin) from 'Plugins\SongCore.dll', INI Parser(Ini Parser@2.5.9)() from 'Plugins\INIParser.manifest', BS_Utils(BS Utils@1.14.1)(BS_Utils.Plugin) from 'Plugins\BS_Utils.dll', Chirality(Chirality@4.0.900)(Chirality.Plugin) from 'Plugins\Chirality.dll', Intro Skip(IntroSkip@4.0.6)(IntroSkip.Plugin) from 'Plugins\IntroSkip.dll', HitScoreVisualizer(HitScoreVisualizer@3.5.0)(HitScoreVisualizer.Plugin) from 'Plugins\HitScoreVisualizer.dll', BeatSaverSharp(BeatSaverSharp@3.4.5)() from 'Plugins\BeatSaverSharp.manifest', ScoreSaber(ScoreSaber@3.3.15)(ScoreSaber.Plugin) from 'Plugins\ScoreSaber.dll', DiscordGameSDK(DiscordGameSDK@3.2.1)() from 'Plugins\DiscordGameSDK.manifest', protobuf-net(protobuf-net@3.0.102)() from 'Plugins\protobuf-net.manifest', Enhancements(Enhancements@3.0.16)(Enhancements.Plugin) from 'Plugins\Enhancements.dll', DiscordCore(DiscordCore@3.0.6)(DiscordCore.Plugin) from 'Plugins\DiscordCore.dll', CustomJSONData(CustomJSONData@2.6.4+1.37.5)(CustomJSONData.Plugin) from 'Plugins\CustomJSONData.dll', Heck(_Heck@1.6.6+1.38.0)(Heck.Plugin) from 'Plugins\Heck.dll', LookupID(LookupID@1.0.1)() from 'Plugins\LookupID.manifest', Chroma(Chroma@2.9.7+1.38.0)(Chroma.Plugin) from 'Plugins\Chroma.dll', AssetBundleLoadingTools(AssetBundleLoadingTools@1.1.10+bs.1.37.4)(AssetBundleLoadingTools.Plugin) from 'Plugins\AssetBundleLoadingTools.dll', CameraUtils(CameraUtils@1.0.7)(CameraUtils.Plugin) from 'Plugins\CameraUtils.dll', CustomNotes(CustomNotes@2.6.8)(CustomNotes.Plugin) from 'Plugins\CustomNotes.dll', BeatSaverVoting(BeatSaverVoting@2.4.6)(BeatSaverVoting.Plugin) from 'Plugins\BeatSaverVoting.dll', Counters+(Counters+@2.3.10)(CountersPlus.Plugin) from 'Plugins\Counters+.dll', MultiplayerCore(MultiplayerCore@1.5.4)(MultiplayerCore.Plugin) from 'Plugins\MultiplayerCore.dll', BeatTogether(BeatTogether@2.2.1)(BeatTogether.Plugin) from 'Plugins\BeatTogether.dll', websocket-sharp(websocket-sharp@1.0.4)() from 'Plugins\websocket-sharp.manifest', BetterSongList(BetterSongList@0.4.1)(BetterSongList.Plugin) from 'Plugins\BetterSongList.dll', SongDetailsCache(SongDetailsCache@1.2.2)() from 'Plugins\SongDetailsCache.manifest', DataPuller(DataPuller@2.1.15)(DataPuller.Plugin) from 'Plugins\DataPuller.dll', EasyOffset(EasyOffset@2.1.14)(EasyOffset.Plugin) from 'Plugins\EasyOffset.dll', SongPlayHistory(SongPlayHistory@2.1.6)(SongPlayHistory.Plugin) from 'Plugins\SongPlayHistory.dll', LeaderboardCore(LeaderboardCore@1.7.0)(LeaderboardCore.Plugin) from 'Plugins\LeaderboardCore.dll', NoodleExtensions(NoodleExtensions@1.7.3+1.37.5)(NoodleExtensions.Plugin) from 'Plugins\NoodleExtensions.dll', BeatLeader(BeatLeader@0.9.28)(BeatLeader.Plugin) from 'Plugins\BeatLeader.dll', PPCounter(PPCounter@2.0.6)(PPCounter.Plugin) from 'Plugins\PPCounter.dll', ImageSharp(SixLabors.ImageSharp@2.0.0)() from 'Plugins\SixLabors.ImageSharp.manifest', ParticleOverdrive(ParticleOverdrive@1.13.1)(ParticleOverdrive.Plugin) from 'Plugins\ParticleOverdrive.dll', MappingExtensions(MappingExtensions@1.7.5)(MappingExtensions.Plugin) from 'Plugins\MappingExtensions.dll', BeatSaberPlaylistsLib(BeatSaberPlaylistsLib@1.7.2)() from 'Plugins\BeatSaberPlaylistsLib.manifest', PlaylistManager(PlaylistManager@1.7.3)(PlaylistManager.Plugin) from 'Plugins\PlaylistManager.dll', CustomWalls(CustomWalls@1.6.4)(CustomWalls.Plugin) from 'Plugins\CustomWalls.dll', FCPercentage(FCPercentage@1.4.9)(FCPercentage.Plugin) from 'Plugins\FCPercentage.dll', IForgor(I Forgor@1.4.1)(IForgor.Plugin) from 'Plugins\IForgor.dll', SliceDetails(SliceDetails@1.3.6)(SliceDetails.Plugin) from 'Plugins\SliceDetails.dll', MultiplayerMirror(MultiplayerMirror@1.3.0)(MultiplayerMirror.Plugin) from 'Plugins\MultiplayerMirror.dll', BeatSaverUpdater(BeatSaverUpdater@1.2.10)(BeatSaverUpdater.Plugin) from 'Plugins\BeatSaverUpdater.dll', bsrpc(bsrpc@1.2.1)(bsrpc.Plugin) from 'Plugins\bsrpc.dll', KeepMyOverridesPls(KeepMyOverridesPls@1.1.2)(KeepMyOverridesPls.Plugin) from 'Plugins\KeepMyOverridesPls.dll', MenuSaberColors(MenuSaberColors@1.0.11)(MenuSaberColors.Plugin) from 'Plugins\MenuSaberColors.dll', AdBlocker(AdBlocker@1.0.5)(AdBlocker.Plugin) from 'Plugins\AdBlocker.dll', PBOT(PBOT@1.0.4)(PBOT.Plugin) from 'Plugins\PBOT.dll', SongRankedBadge(SongRankedBadge@1.0.4)(SongRankedBadge.Plugin) from 'Plugins\SongRankedBadge.dll', WhyIsThereNoLeaderboard(WhyIsThereNoLeaderboard@1.0.3)(WhyIsThereNoLeaderboard.Plugin) from 'Plugins\WhyIsThereNoLeaderboard.dll', HighlightBombs(HighlightBombs@1.0.3)(HighlightBombs.Plugin) from 'Plugins\HighlightBombs.dll', TimeSyncStutterFix(TimeSyncStutterFix@1.0.0+bs.1.37.2)(TimeSyncStutterFix.Plugin) from 'Plugins\TimeSyncStutterFix.dll', SimpleClock(SimpleClock@1.0.0)(SimpleClock.Plugin) from 'Plugins\SimpleClock.dll', CustomSabersLite(CustomSabersLite@0.13.2)(CustomSabersLite.Plugin) from 'Plugins\CustomSabersLite.dll', BetterSongSearch(BetterSongSearch@0.7.89)(BetterSongSearch.Plugin) from 'Plugins\BetterSongSearch.dll', Tweaks55(Tweaks55@0.3.16)(Tweaks55.Plugin) from 'Plugins\Tweaks55.dll', NoteCutGuide(NoteCutGuide@0.2.7)(NoteCutGuide.Plugin) from 'Plugins\NoteCutGuide.dll', CustomSaberColors(CustomSaberColors@0.2.5)(CustomSaberColors.Plugin) from 'Plugins\CustomSaberColors.dll', Gotta Go Fast(GottaGoFast@0.2.4)(GottaGoFast.Plugin) from 'Plugins\GottaGoFast.dll', ScoreSaberSharp(ScoreSaberSharp@0.1.0)() from 'Plugins\ScoreSaberSharp.manifest', SM64BS(SM64BS@0.0.4)(SM64BS.Plugin) from 'Plugins\SM64BS.dll'
+[WARNING @ 01:38:23 | UnityEngine] OnLevelWasLoaded was found on PluginComponent
+[WARNING @ 01:38:23 | UnityEngine] This message has been deprecated and will be removed in a later version of Unity.
+[WARNING @ 01:38:23 | UnityEngine] Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+[WARNING @ 01:38:23 | IPA/Loader] Mod BeatSaberMarkupLanguage developed for game version 1.37.4, so it may not work properly.
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom BeatSaberMarkupLanguage.Config<Generated>
+[WARNING @ 01:38:24 | IPA/Loader] Mod SiraUtil developed for game version 1.37.4, so it may not work properly.
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo BeatSaberMarkupLanguage.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom SiraUtil.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo SiraUtil.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo SiraUtil.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom JDFixer.PluginConfig<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo JDFixer.PluginConfig<Generated>
+[WARNING @ 01:38:24 | IPA/Loader] Mod System.IO.Compression developed for game version 1.29.4, so it may not work properly.
+[WARNING @ 01:38:24 | IPA/Loader] Mod System.IO.Compression.FileSystem developed for game version 1.29.4, so it may not work properly.
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom SongCore.SConfiguration<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo SongCore.SConfiguration<Generated>
+[WARNING @ 01:38:24 | IPA/Loader] Mod BS_Utils developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:24 | Chirality] Logger initialized.
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom Chirality.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:24 | Chirality] Config loaded
+[WARNING @ 01:38:24 | IPA/Loader] Mod Intro Skip developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo Chirality.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom IntroSkip.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo IntroSkip.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom HitScoreVisualizer.Settings.HSVConfig<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo HitScoreVisualizer.Settings.HSVConfig<Generated>
+[DEBUG @ 01:38:24 | SiraUtil] Found bind attribute in type 'ScoreSaber.Core.ReplaySystem.HarmonyPatches.FPFCPatch'
+[WARNING @ 01:38:24 | IPA/Loader] Mod DiscordGameSDK developed for game version 1.16.4, so it may not work properly.
+[WARNING @ 01:38:24 | IPA/Loader] Mod protobuf-net developed for game version 1.13.2, so it may not work properly.
+[WARNING @ 01:38:24 | IPA/Loader] Mod Enhancements developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom Enhancements.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo Enhancements.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo Enhancements.Config<Generated>
+[WARNING @ 01:38:24 | IPA/Loader] Mod DiscordCore developed for game version 1.37.4, so it may not work properly.
+[DEBUG @ 01:38:24 | DiscordCore] DiscordManager Awake
+[INFO @ 01:38:24 | DiscordCore] DiscordClient enabled.
+[WARNING @ 01:38:24 | IPA/Loader] Mod CustomJSONData developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom Heck.Settings.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo Heck.Settings.Config<Generated>
+[WARNING @ 01:38:24 | IPA/Loader] Mod LookupID developed for game version 1.21.0, so it may not work properly.
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom Chroma.Settings.Config<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo Chroma.Settings.Config<Generated>
+[WARNING @ 01:38:24 | IPA/Loader] Mod AssetBundleLoadingTools developed for game version 1.37.4, so it may not work properly.
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl ReadFrom AssetBundleLoadingTools.Config.PluginConfig<Generated>
+[DEBUG @ 01:38:24 | IPA/Config] Generated impl WriteTo AssetBundleLoadingTools.Config.PluginConfig<Generated>
+[INFO @ 01:38:25 | AssetBundleLoadingTools] Loading shaderbundles...
+[INFO @ 01:38:25 | AssetBundleLoadingTools] Loaded 6 manifests containing 644 shaders.
+[WARNING @ 01:38:26 | IPA/Loader] Mod CameraUtils developed for game version 1.33.0, so it may not work properly.
+[WARNING @ 01:38:26 | IPA/Loader] Mod CustomNotes developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:26 | IPA/Config] Generated impl ReadFrom CustomNotes.Settings.Utilities.PluginConfig<Generated>
+[DEBUG @ 01:38:26 | IPA/Config] Generated impl WriteTo CustomNotes.Settings.Utilities.PluginConfig<Generated>
+[WARNING @ 01:38:26 | IPA/Loader] Mod Counters+ developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:26 | IPA/Loader/Features] Executing DefineFeature AfterInit
+[DEBUG @ 01:38:26 | IPA/Config] Generated impl ReadFrom CountersPlus.ConfigModels.MainConfigModel<Generated>
+[DEBUG @ 01:38:26 | IPA/Config] Generated impl WriteTo CountersPlus.ConfigModels.MainConfigModel<Generated>
+[DEBUG @ 01:38:26 | IPA/LibraryLoader] Resolving library BeatSaverSharp, Version=3.4.5.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 01:38:26 | IPA/LibraryLoader] Looking for file BeatSaverSharp.dll
+[DEBUG @ 01:38:26 | IPA/LibraryLoader] Found file BeatSaverSharp.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\BeatSaverSharp.dll
+[WARNING @ 01:38:26 | IPA/Loader] Mod BeatTogether developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:26 | IPA/Config] Generated impl ReadFrom BeatTogether.Config<Generated>
+[DEBUG @ 01:38:26 | IPA/Config] Generated impl WriteTo BeatTogether.Config<Generated>
+[WARNING @ 01:38:26 | IPA/Loader] Mod websocket-sharp developed for game version 1.13.0, so it may not work properly.
+[WARNING @ 01:38:26 | IPA/Loader] Mod BetterSongList developed for game version 1.37.4, so it may not work properly.
+[DEBUG @ 01:38:26 | IPA/Config] Generated impl ReadFrom BetterSongList.Config<Generated>
+[WARNING @ 01:38:26 | IPA/Loader] Mod SongDetailsCache developed for game version 1.13.2, so it may not work properly.
+[DEBUG @ 01:38:26 | IPA/Config] Generated impl WriteTo BetterSongList.Config<Generated>
+[DEBUG @ 01:38:26 | IPA/LibraryLoader] Resolving library websocket-sharp, Version=1.0.2.1803, Culture=neutral, PublicKeyToken=5660b08a1845a91e
+[DEBUG @ 01:38:26 | IPA/LibraryLoader] Looking for file websocket-sharp.dll
+[DEBUG @ 01:38:26 | IPA/LibraryLoader] Found file websocket-sharp.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\websocket-sharp.dll
+[DEBUG @ 01:38:27 | DataPuller] Logger initialized.
+[DEBUG @ 01:38:27 | DataPuller] Apply Harmony patches
+[DEBUG @ 01:38:27 | DataPuller] Initialize Server.
+[DEBUG @ 01:38:27 | DataPuller] Initialize ModData.
+[DEBUG @ 01:38:27 | DataPuller] HandlePluginsStateChanged
+[WARNING @ 01:38:27 | IPA/Loader] Mod EasyOffset developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:27 | IPA/Config] Generated impl ReadFrom EasyOffset.ConfigFileData<Generated>
+[DEBUG @ 01:38:27 | IPA/Config] Generated impl WriteTo EasyOffset.ConfigFileData<Generated>
+[NOTICE @ 01:38:27 | IPA/Loader] Plugin SongPlayHistory has no methods marked [OnExit] or [OnDisable]. Is this intentional?
+[DEBUG @ 01:38:27 | IPA/Config] Generated impl ReadFrom SongPlayHistory.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:27 | IPA/Config] Generated impl WriteTo SongPlayHistory.Configuration.PluginConfig<Generated>
+[WARNING @ 01:38:27 | IPA/Loader] Mod LeaderboardCore developed for game version 1.37.4, so it may not work properly.
+[DEBUG @ 01:38:27 | IPA/Config] Generated impl ReadFrom LeaderboardCore.Configuration.PluginConfig<Generated>
+[WARNING @ 01:38:27 | IPA/Loader] Mod NoodleExtensions developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:27 | IPA/Config] Generated impl WriteTo LeaderboardCore.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:27 | IPA/Config] Generated impl ReadFrom BeatLeader.ConfigFileData<Generated>
+[DEBUG @ 01:38:27 | IPA/Config] Generated impl WriteTo BeatLeader.ConfigFileData<Generated>
+[WARNING @ 01:38:28 | IPA/Loader] Mod PPCounter developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom PPCounter.Settings.PluginSettings<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo PPCounter.Settings.PluginSettings<Generated>
+[NOTICE @ 01:38:28 | Counters+] Loaded a Custom Counter (PP Counter).
+[WARNING @ 01:38:28 | IPA/Loader] Mod ParticleOverdrive developed for game version 1.37.4, so it may not work properly.
+[WARNING @ 01:38:28 | IPA/Loader] Mod MappingExtensions developed for game version 1.35.0, so it may not work properly.
+[WARNING @ 01:38:28 | IPA/Loader] Mod BeatSaberPlaylistsLib developed for game version 1.37.4, so it may not work properly.
+[WARNING @ 01:38:28 | IPA/Loader] Mod PlaylistManager developed for game version 1.37.4, so it may not work properly.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom PlaylistManager.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | PlaylistManager] Config loaded
+[WARNING @ 01:38:28 | IPA/Loader] Mod CustomWalls developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo PlaylistManager.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom CustomWalls.Settings.Utilities.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo CustomWalls.Settings.Utilities.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom FCPercentage.FCPCore.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo FCPercentage.FCPCore.Configuration.PluginConfig<Generated>
+[NOTICE @ 01:38:28 | Counters+] Loaded a Custom Counter (FC Percentage).
+[WARNING @ 01:38:28 | IPA/Loader] Mod IForgor developed for game version 1.37.5, so it may not work properly.
+[WARNING @ 01:38:28 | IPA/Loader] Mod SliceDetails developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom SliceDetails.Settings.SettingsStore<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo SliceDetails.Settings.SettingsStore<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom MultiplayerMirror.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo MultiplayerMirror.PluginConfig<Generated>
+[WARNING @ 01:38:28 | IPA/Loader] Mod BeatSaverUpdater developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom BeatSaverUpdater.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo BeatSaverUpdater.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom bsrpc.PluginConfig<Generated>
+[INFO @ 01:38:28 | bsrpc] bsrpc initialized.
+[WARNING @ 01:38:28 | IPA/Loader] Mod KeepMyOverridesPls developed for game version 1.37.4, so it may not work properly.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo bsrpc.PluginConfig<Generated>
+[NOTICE @ 01:38:28 | IPA/Loader] Plugin KeepMyOverridesPls has no methods marked [OnStart] or [OnEnable]. Is this intentional?
+[NOTICE @ 01:38:28 | IPA/Loader] Plugin KeepMyOverridesPls has no methods marked [OnExit] or [OnDisable]. Is this intentional?
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom KeepMyOverridesPls.Configuration.PluginConfig<Generated>
+[WARNING @ 01:38:28 | IPA/Loader] Mod MenuSaberColors developed for game version 1.37.4, so it may not work properly.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo KeepMyOverridesPls.Configuration.PluginConfig<Generated>
+[WARNING @ 01:38:28 | IPA/Loader] Mod AdBlocker developed for game version 1.34.2, so it may not work properly.
+[INFO @ 01:38:28 | AdBlocker] AdBlocker initialized.
+[WARNING @ 01:38:28 | IPA/Loader] Mod PBOT developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom PBOT.Config<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo PBOT.Config<Generated>
+[NOTICE @ 01:38:28 | Counters+] Loaded a Custom Counter (PBOT).
+[DEBUG @ 01:38:28 | IPA/LibraryLoader] Resolving library SongDetailsCache, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 01:38:28 | IPA/LibraryLoader] Looking for file SongDetailsCache.dll
+[DEBUG @ 01:38:28 | IPA/LibraryLoader] Found file SongDetailsCache.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\SongDetailsCache.dll
+[INFO @ 01:38:28 | SongRankedBadge] SongRankedBadge initialized.
+[DEBUG @ 01:38:28 | SongRankedBadge] Loading song details...
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom SongRankedBadge.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | SongRankedBadge] Config loaded
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo SongRankedBadge.Configuration.PluginConfig<Generated>
+[WARNING @ 01:38:28 | IPA/Loader] Mod WhyIsThereNoLeaderboard developed for game version 1.37.5, so it may not work properly.
+[WARNING @ 01:38:28 | IPA/Loader] Mod HighlightBombs developed for game version 1.32.0, so it may not work properly.
+[WARNING @ 01:38:28 | IPA/Loader] Mod TimeSyncStutterFix developed for game version 1.37.2, so it may not work properly.
+[WARNING @ 01:38:28 | IPA/Loader] Mod SimpleClock developed for game version 1.37.1, so it may not work properly.
+[INFO @ 01:38:28 | SimpleClock] SimpleClock initialized.
+[INFO @ 01:38:28 | BetterSongSearch] BetterSongSearch initialized.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom BetterSongSearch.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo BetterSongSearch.PluginConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom CustomSabersLite.Configuration.CSLConfig<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo CustomSabersLite.Configuration.CSLConfig<Generated>
+[WARNING @ 01:38:28 | IPA/Loader] Mod Tweaks55 developed for game version 1.36.2, so it may not work properly.
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl ReadFrom Tweaks55.Config<Generated>
+[DEBUG @ 01:38:28 | IPA/Config] Generated impl WriteTo Tweaks55.Config<Generated>
+[WARNING @ 01:38:28 | IPA/Loader] Mod NoteCutGuide developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:29 | IPA/Config] Generated impl ReadFrom NoteCutGuide.Config<Generated>
+[DEBUG @ 01:38:29 | IPA/Config] Generated impl WriteTo NoteCutGuide.Config<Generated>
+[WARNING @ 01:38:29 | IPA/Loader] Mod CustomSaberColors developed for game version 1.37.5, so it may not work properly.
+[DEBUG @ 01:38:29 | IPA/Config] Generated impl ReadFrom CustomSaberColors.Project.PluginConfig<Generated>
+[DEBUG @ 01:38:29 | IPA/Config] Generated impl WriteTo CustomSaberColors.Project.PluginConfig<Generated>
+[DEBUG @ 01:38:29 | CustomSaberColors] CustomSaberColors Version 0.2.5 has initialized
+[WARNING @ 01:38:29 | IPA/Loader] Mod Gotta Go Fast developed for game version 1.37.5, so it may not work properly.
+[INFO @ 01:38:29 | Gotta Go Fast] Gotta Go Fast initialized.
+[DEBUG @ 01:38:29 | IPA/Config] Generated impl ReadFrom GottaGoFast.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:29 | IPA/Config] Generated impl WriteTo GottaGoFast.Configuration.PluginConfig<Generated>
+[WARNING @ 01:38:29 | IPA/Loader] Mod ScoreSaberSharp developed for game version 1.6.0, so it may not work properly.
+[DEBUG @ 01:38:29 | IPA/Loader/Features] Executing DefineFeature AfterInit
+[DEBUG @ 01:38:29 | IPA/LibraryLoader] Resolving library Unity.LibSM64, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 01:38:29 | IPA/LibraryLoader] Looking for file Unity.LibSM64.dll
+[DEBUG @ 01:38:29 | IPA/LibraryLoader] Found file Unity.LibSM64.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\Unity.LibSM64.dll
+[DEBUG @ 01:38:29 | IPA/Config] Generated impl ReadFrom SM64BS.Settings.SettingsStore<Generated>
+[DEBUG @ 01:38:29 | IPA/Config] Generated impl WriteTo SM64BS.Settings.SettingsStore<Generated>
+[INFO @ 01:38:29 | IPA] Beat Saber
+[INFO @ 01:38:29 | IPA] Running on Unity 2022.3.33f1
+[INFO @ 01:38:29 | IPA] Game version 1.38.0
+[INFO @ 01:38:29 | IPA] -----------------------------
+[INFO @ 01:38:29 | IPA] Loading plugins from Plugins and found 68
+[INFO @ 01:38:29 | IPA] -----------------------------
+[INFO @ 01:38:29 | IPA] Beat Saber IPA (BSIPA): 4.3.5
+[INFO @ 01:38:29 | IPA] BeatSaberMarkupLanguage (BeatSaberMarkupLanguage): 1.12.3+bs.1.37.4
+[INFO @ 01:38:29 | IPA] SiraUtil (SiraUtil): 3.1.12
+[INFO @ 01:38:29 | IPA] JDFixer (JDFixer): 7.3.0
+[INFO @ 01:38:29 | IPA] System.IO.Compression (System.IO.Compression): 4.6.57
+[INFO @ 01:38:29 | IPA] System.IO.Compression.FileSystem (System.IO.Compression.FileSystem): 4.7.3056
+[INFO @ 01:38:29 | IPA] SongCore (SongCore): 3.14.15
+[INFO @ 01:38:29 | IPA] INI Parser (Ini Parser): 2.5.9
+[INFO @ 01:38:29 | IPA] BS_Utils (BS Utils): 1.14.1
+[INFO @ 01:38:29 | IPA] Chirality (Chirality): 4.0.900
+[INFO @ 01:38:29 | IPA] Intro Skip (IntroSkip): 4.0.6
+[INFO @ 01:38:29 | IPA] HitScoreVisualizer (HitScoreVisualizer): 3.5.0
+[INFO @ 01:38:29 | IPA] BeatSaverSharp (BeatSaverSharp): 3.4.5
+[INFO @ 01:38:29 | IPA] ScoreSaber (ScoreSaber): 3.3.15
+[INFO @ 01:38:29 | IPA] DiscordGameSDK (DiscordGameSDK): 3.2.1
+[INFO @ 01:38:29 | IPA] protobuf-net (protobuf-net): 3.0.102
+[INFO @ 01:38:29 | IPA] Enhancements (Enhancements): 3.0.16
+[INFO @ 01:38:29 | IPA] DiscordCore (DiscordCore): 3.0.6
+[INFO @ 01:38:29 | IPA] CustomJSONData (CustomJSONData): 2.6.4+1.37.5
+[INFO @ 01:38:29 | IPA] Heck (_Heck): 1.6.6+1.38.0
+[INFO @ 01:38:29 | IPA] LookupID (LookupID): 1.0.1
+[INFO @ 01:38:29 | IPA] Chroma (Chroma): 2.9.7+1.38.0
+[INFO @ 01:38:29 | IPA] AssetBundleLoadingTools (AssetBundleLoadingTools): 1.1.10+bs.1.37.4
+[INFO @ 01:38:29 | IPA] CameraUtils (CameraUtils): 1.0.7
+[INFO @ 01:38:29 | IPA] CustomNotes (CustomNotes): 2.6.8
+[INFO @ 01:38:29 | IPA] BeatSaverVoting (BeatSaverVoting): 2.4.6
+[INFO @ 01:38:29 | IPA] Counters+ (Counters+): 2.3.10
+[INFO @ 01:38:29 | IPA] MultiplayerCore (MultiplayerCore): 1.5.4
+[INFO @ 01:38:29 | IPA] BeatTogether (BeatTogether): 2.2.1
+[INFO @ 01:38:29 | IPA] websocket-sharp (websocket-sharp): 1.0.4
+[INFO @ 01:38:29 | IPA] BetterSongList (BetterSongList): 0.4.1
+[INFO @ 01:38:29 | IPA] SongDetailsCache (SongDetailsCache): 1.2.2
+[INFO @ 01:38:29 | IPA] DataPuller (DataPuller): 2.1.15
+[INFO @ 01:38:29 | IPA] EasyOffset (EasyOffset): 2.1.14
+[INFO @ 01:38:29 | IPA] SongPlayHistory (SongPlayHistory): 2.1.6
+[INFO @ 01:38:29 | IPA] LeaderboardCore (LeaderboardCore): 1.7.0
+[INFO @ 01:38:29 | IPA] NoodleExtensions (NoodleExtensions): 1.7.3+1.37.5
+[INFO @ 01:38:29 | IPA] BeatLeader (BeatLeader): 0.9.28
+[INFO @ 01:38:29 | IPA] PPCounter (PPCounter): 2.0.6
+[INFO @ 01:38:29 | IPA] ImageSharp (SixLabors.ImageSharp): 2.0.0
+[INFO @ 01:38:29 | IPA] ParticleOverdrive (ParticleOverdrive): 1.13.1
+[INFO @ 01:38:29 | IPA] MappingExtensions (MappingExtensions): 1.7.5
+[INFO @ 01:38:29 | IPA] BeatSaberPlaylistsLib (BeatSaberPlaylistsLib): 1.7.2
+[INFO @ 01:38:29 | IPA] PlaylistManager (PlaylistManager): 1.7.3
+[INFO @ 01:38:29 | IPA] CustomWalls (CustomWalls): 1.6.4
+[INFO @ 01:38:29 | IPA] FCPercentage (FCPercentage): 1.4.9
+[INFO @ 01:38:29 | IPA] IForgor (I Forgor): 1.4.1
+[INFO @ 01:38:29 | IPA] SliceDetails (SliceDetails): 1.3.6
+[INFO @ 01:38:29 | IPA] MultiplayerMirror (MultiplayerMirror): 1.3.0
+[INFO @ 01:38:29 | IPA] BeatSaverUpdater (BeatSaverUpdater): 1.2.10
+[INFO @ 01:38:29 | IPA] bsrpc (bsrpc): 1.2.1
+[INFO @ 01:38:29 | IPA] KeepMyOverridesPls (KeepMyOverridesPls): 1.1.2
+[INFO @ 01:38:29 | IPA] MenuSaberColors (MenuSaberColors): 1.0.11
+[INFO @ 01:38:29 | IPA] AdBlocker (AdBlocker): 1.0.5
+[INFO @ 01:38:29 | IPA] PBOT (PBOT): 1.0.4
+[INFO @ 01:38:29 | IPA] SongRankedBadge (SongRankedBadge): 1.0.4
+[INFO @ 01:38:29 | IPA] WhyIsThereNoLeaderboard (WhyIsThereNoLeaderboard): 1.0.3
+[INFO @ 01:38:29 | IPA] HighlightBombs (HighlightBombs): 1.0.3
+[INFO @ 01:38:29 | IPA] TimeSyncStutterFix (TimeSyncStutterFix): 1.0.0+bs.1.37.2
+[INFO @ 01:38:29 | IPA] SimpleClock (SimpleClock): 1.0.0
+[INFO @ 01:38:29 | IPA] CustomSabersLite (CustomSabersLite): 0.13.2
+[INFO @ 01:38:29 | IPA] BetterSongSearch (BetterSongSearch): 0.7.89
+[INFO @ 01:38:29 | IPA] Tweaks55 (Tweaks55): 0.3.16
+[INFO @ 01:38:29 | IPA] NoteCutGuide (NoteCutGuide): 0.2.7
+[INFO @ 01:38:29 | IPA] CustomSaberColors (CustomSaberColors): 0.2.5
+[INFO @ 01:38:29 | IPA] Gotta Go Fast (GottaGoFast): 0.2.4
+[INFO @ 01:38:29 | IPA] ScoreSaberSharp (ScoreSaberSharp): 0.1.0
+[INFO @ 01:38:29 | IPA] SM64BS (SM64BS): 0.0.4
+[INFO @ 01:38:29 | IPA] -----------------------------
+[INFO @ 01:38:29 | IPA] Initializing plugins took 00:00:05.8513293
+[DEBUG @ 01:38:29 | SongRankedBadge] Song details loaded.
+[DEBUG @ 01:38:30 | JDFixer] CC installed: 
+[DEBUG @ 01:38:30 | BS_Utils] [BS-Utils]  Applying Harmony Patches
+[INFO @ 01:38:30 | SongCore] Finished loading cached extra data for 1165 songs.
+[DEBUG @ 01:38:30 | Chirality] Create Horizontal Transforms
+[DEBUG @ 01:38:30 | Chirality] Create Vertical Transforms
+[DEBUG @ 01:38:30 | Chirality] Create Horizontal Transforms
+[DEBUG @ 01:38:30 | Chirality] Create Vertical Transforms
+[DEBUG @ 01:38:30 | Chirality] Applying Harmony patches.
+[DEBUG @ 01:38:31 | DataPuller] OnApplicationStart
+[DEBUG @ 01:38:31 | DataPuller] HandlePluginsStateChanged
+[DEBUG @ 01:38:32 | IPA/LibraryLoader] Resolving library BeatSaberPlaylistsLib, Version=1.7.2.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 01:38:32 | IPA/LibraryLoader] Looking for file BeatSaberPlaylistsLib.dll
+[DEBUG @ 01:38:32 | IPA/LibraryLoader] Found file BeatSaberPlaylistsLib.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\BeatSaberPlaylistsLib.dll
+[WARNING @ 01:38:34 | Harmony] AccessTools.TypeByName: Could not find type named DiTails.UI.DetailViewHost
+[WARNING @ 01:38:34 | Harmony] AccessTools.Method: type is null
+[DEBUG @ 01:38:34 | LeaderboardCore] Applying Harmony patches.
+[WARNING @ 01:38:35 | BeatLeader] Plugin BeatSaviorData not found, BeatSaviorInterop will not be loaded
+[WARNING @ 01:38:35 | BeatLeader] Plugin Camera2 not found, Cam2Interop will not be loaded
+[INFO @ 01:38:35 | BeatLeader] Successfully patched 5 ScoreSaber installators!
+[DEBUG @ 01:38:35 | DataPuller] Initialize MapData.
+[DEBUG @ 01:38:35 | DataPuller] Initialize LiveData.
+[DEBUG @ 01:38:35 | bsrpc] bsrpcController: Awake()
+[DEBUG @ 01:38:35 | DiscordCore] Writing to File @ A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\UserData\DiscordCore.json
+[DEBUG @ 01:38:35 | DiscordCore] Added new instance with AppId 1028340906740420711
+[NOTICE @ 01:38:35 | Tweaks55] Applied all patches in 390ms
+[INFO @ 01:38:35 | SM64BS] SM64BS has been enabled.
+[DEBUG @ 01:38:35 | CustomWalls] 0 external wall(s) found.
+[DEBUG @ 01:38:36 | BeatSaberMarkupLanguage] Font loading complete
+[DEBUG @ 01:38:36 | CustomWalls] 5 total wall(s) loaded.
+[INFO @ 01:38:36 | CustomWalls] CustomWalls v.1.6.4 has started.
+[INFO @ 01:38:37 | UnityEngine] [SettingsIO] Loaded Settings on 'Standalone' (async)
+[DEBUG @ 01:38:38 | SiraUtil] Installing: SiraUtil.Installers.SiraInitializationInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: SiraUtil.Installers.SiraSettingsInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: SongCore.Installers.AppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: HitScoreVisualizer.Installers.HsvAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: ScoreSaber.Core.AppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: Enhancements.Installers.XInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: Heck.Installers.HeckAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: Chroma.Installers.ChromaAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: CustomNotes.Installers.CustomNotesCoreInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: CountersPlus.Installers.CoreInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: MultiplayerCore.Installers.MpAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: BeatTogether.Installers.BtAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: DataPuller.Installers.AppInstallers onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: SongPlayHistory.Installers.AppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: NoodleExtensions.Installers.NoodleAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: PPCounter.Installers.DataInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: PPCounter.Installers.CalculatorsInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: ParticleOverdrive.Installers.AppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: PlaylistManager.Installers.PlaylistManagerAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: IForgor.Installers.IFAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: SliceDetails.Installers.SDAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: MultiplayerMirror.Core.Installers.MpMirrorAppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: KeepMyOverridesPls.Installers.AppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: PBOT.Installers.PBOTCoreInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: HighlightBombs.Installers.AppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: CustomSabersLite.Installers.AppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: CustomSaberColors.Installers.AppInstaller onto PCAppInit
+[DEBUG @ 01:38:38 | SiraUtil] Installing: SM64BS.Installers.SM64BSAppInstaller onto PCAppInit
+[INFO @ 01:38:38 | SongPlayHistory] BeatSaverVoting is installed! Binding BeatSaverVotingTracker.
+[INFO @ 01:38:38 | UnityEngine] [MainSystemInit] Initialization was completed on version: 1.38.0_11020369061
+[DEBUG @ 01:38:38 | BeatLeader] OnAppInitInstaller
+[DEBUG @ 01:38:38 | DataPuller] AppInstallers InstallBindings.
+[INFO @ 01:38:38 | UnityEngine] [MainSystemInit] Network Service Environment: ProductionA
+[NOTICE @ 01:38:38 | Counters+] Registered 113 settings to Heck's settable settings system.
+[DEBUG @ 01:38:38 | IPA/LibraryLoader] Resolving library INIParser, Version=2.5.9.0, Culture=neutral, PublicKeyToken=79af7b307b65cf3c
+[DEBUG @ 01:38:38 | IPA/LibraryLoader] Looking for file INIParser.dll
+[DEBUG @ 01:38:38 | IPA/LibraryLoader] Found file INIParser.dll as A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Libs\INIParser.dll
+[WARNING @ 01:38:41 | Harmony] AccessTools.DeclaredMethod: Could not find method for type NodePoseSyncStateManager and name TryCreateLocalState and parameters 
+[WARNING @ 01:38:41 | Harmony] AccessTools.DeclaredMethod: Could not find method for type NodePoseSyncStateManager and name HandlePlayerConnected and parameters 
+[WARNING @ 01:38:41 | Harmony] AccessTools.DeclaredMethod: Could not find method for type ScoreSyncStateManager and name TryCreateLocalState and parameters 
+[WARNING @ 01:38:41 | Harmony] AccessTools.DeclaredMethod: Could not find method for type ScoreSyncStateManager and name HandlePlayerConnected and parameters 
+[WARNING @ 01:38:41 | SiraUtil] 'PlayerDataModelHook' doesn't have any affinity patches! The IAffinity interface is unecessary.
+[DEBUG @ 01:38:42 | EasyOffset] Request[1003338096]: https://github.com/Reezonate/EasyOffset/raw/master/media/RemoteConfig.json
+[DEBUG @ 01:38:42 | CustomNotes] 17 external note(s) found.
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Accuracy Dot Notes.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Accuracy Star Notes.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Accurate Hitbox Notes.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Bliss_Redux.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for CatNote.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Cursed Centipede Notes.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Cursed Hitbox Notes.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for DDR Arrows.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Galaxy_Bloqs.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Inner Sphere 114+.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Minecraft.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Old Bombs.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Old Notes V2.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Old_Notes.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Outlines V3.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for Small Base Notes.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] Repairing shaders for UWU notes.bloq
+[DEBUG @ 01:38:42 | CustomNotes] All shaders replaced!
+[DEBUG @ 01:38:42 | CustomNotes] 18 total note(s) loaded.
+[INFO @ 01:38:42 | SongPlayHistory/RecordsManager] Loading history from A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\UserData\SongPlayData.json
+[INFO @ 01:38:42 | SongPlayHistory/RecordsManager] Loaded 313 records from 197 levels.
+[DEBUG @ 01:38:42 | BeatLeader] SteamVR console connection failed: Unable to connect to the remote server
+[DEBUG @ 01:38:42 | MultiplayerCore/MpPacketSerializer] Registered packet 'MultiplayerCore.Players.MpPlayerData' with id 'MpPlayerData'.
+[DEBUG @ 01:38:43 | MultiplayerCore/MpPacketSerializer] Registered packet 'MultiplayerCore.NodePoseSyncState.MpNodePoseSyncStatePacket' with id 'MpNodePoseSyncStatePacket'.
+[DEBUG @ 01:38:43 | MultiplayerCore/MpPacketSerializer] Registered packet 'MultiplayerCore.NodePoseSyncState.MpScoreSyncStatePacket' with id 'MpScoreSyncStatePacket'.
+[DEBUG @ 01:38:43 | IPA/Config] Generated impl WriteTo KeepMyOverridesPls.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:43 | IPA/Config] Generated impl WriteTo KeepMyOverridesPls.Configuration.PluginConfig<Generated>
+[DEBUG @ 01:38:44 | BeatLeader] Unable read playlist. Reason: Could not find file "A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Playlists\BeatLeader nominated.bplist"
+[DEBUG @ 01:38:44 | BeatLeader] Unable read playlist. Reason: Could not find file "A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Playlists\BeatLeader qualified.bplist"
+[DEBUG @ 01:38:44 | BeatLeader] Unable read playlist. Reason: Could not find file "A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Playlists\BeatLeader ranked.bplist"
+[ERROR @ 01:38:44 | Counters+] Failed to download version info.
+[DEBUG @ 01:38:45 | EasyOffset] Response[1003338096]: 200
+[INFO @ 01:38:45 | UnityEngine] Applied GraphicSettings
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallbacks for 'Segoe UI'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Tahoma'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Meiryo UI'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Meiryo UI'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'MS UI Gothic'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Microsoft JhengHei UI'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Microsoft JhengHei UI'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Microsoft YaHei UI'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Microsoft YaHei UI'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Malgun Gothic'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Malgun Gothic'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'PMingLiU'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'SimSun'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Gulim'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Yu Gothic UI'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Yu Gothic UI'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Reading fallback 'Segoe UI Symbol'
+[DEBUG @ 01:38:45 | BeatSaberMarkupLanguage] Waiting for default font presence
+[DEBUG @ 01:38:45 | HighlightBombs] Loaded QuickOutline Material Asset
+[NOTICE @ 01:38:45 | CustomSabersLite] Found 53 cached saber entries
+[NOTICE @ 01:38:45 | CustomSabersLite] Cache loading took 2367ms
+[INFO @ 01:38:45 | UnityEngine] Applied GraphicSettings
+[WARNING @ 01:38:45 | UnityEngine] ObstacleHW requires screenDisplacement to be true. Defaulting to ObstacleLW Material.
+[WARNING @ 01:38:45 | UnityEngine] ObstacleHW requires screenDisplacement to be true. Defaulting to ObstacleLW Material.
+[DEBUG @ 01:38:46 | SiraUtil] Installing: SiraUtil.Tools.FPFC.SiraFullFPFCInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: SiraUtil.Installers.SiraMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: JDFixer.Installers.JDFixerMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: SongCore.Installers.MenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: HitScoreVisualizer.Installers.HsvMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: ScoreSaber.Core.MainInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: Enhancements.Installers.XMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: Heck.Installers.HeckMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: Chroma.Installers.ChromaMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: AssetBundleLoadingTools.Installers.MainMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: CustomNotes.Installers.CustomNotesMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: CountersPlus.Installers.MenuUIInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: MultiplayerCore.Installers.MpMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: BeatTogether.Installers.BtMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: DataPuller.Installers.MenuInstallers onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: SongPlayHistory.Installers.MenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: LeaderboardCore.Installers.LeaderboardCoreMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: ParticleOverdrive.Installers.MenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: ParticleOverdrive.Installers.WorldParticlesInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: PlaylistManager.Installers.PlaylistManagerMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: SliceDetails.Installers.SDMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: MultiplayerMirror.Core.Installers.MpMirrorMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: MenuSaberColors.Installers.MenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: WhyIsThereNoLeaderboard.Installers.WhyIsThereNoLeaderboardMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: SimpleClock.SimpleClockInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: CustomSabersLite.Installers.MenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: CustomSaberColors.Installers.MenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SiraUtil] Installing: SM64BS.Installers.SM64BSMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 01:38:46 | SongPlayHistory/MenuInstaller] Binding settings menu and manager
+[DEBUG @ 01:38:46 | SongPlayHistory/MenuInstaller] Binding SPHUI
+[DEBUG @ 01:38:46 | SongPlayHistory/MenuInstaller] Binding InMenuVoteTrackingHelper
+[DEBUG @ 01:38:46 | BeatLeader] OnMenuInstaller
+[DEBUG @ 01:38:46 | DataPuller] MenuInstallers InstallBindings.
+[DEBUG @ 01:38:46 | ScoreSaber] PlayerService Setup!
+[DEBUG @ 01:38:46 | ScoreSaber] PanelView Setup!
+[DEBUG @ 01:38:46 | ScoreSaber] LeaderboardService Setup
+[DEBUG @ 01:38:46 | ScoreSaber] Upload service setup!
+[DEBUG @ 01:38:48 | ScoreSaber] GlobalLeaderboardService Setup
+[DEBUG @ 01:38:48 | ScoreSaber] GlobalViewController Setup
+[DEBUG @ 01:38:48 | ScoreSaber] ScoreSaberFlowCoordinator Setup
+[DEBUG @ 01:38:48 | ScoreSaber] ScoreSaberSettingsFlowCoordinator Setup
+[INFO @ 01:38:48 | SongPlayHistory/SPHUI] Preparing SPU UI
+[DEBUG @ 01:38:48 | SongPlayHistory/SPHUI] Preparing hover area for play history
+[DEBUG @ 01:38:48 | SongPlayHistory/SPHUI] Preparing extra level stats ui for play count
+[DEBUG @ 01:38:49 | SliceDetails/GridViewController] GridViewController Constructed
+[INFO @ 01:38:50 | UnityEngine] Applied GraphicSettings
+[DEBUG @ 01:38:50 | JDFixer] CC installed: 
+[DEBUG @ 01:38:51 | IPA/Config] Generated impl WriteTo PlaylistManager.Configuration.PluginConfig<Generated>
+[INFO @ 01:38:51 | UnityEngine] Mario spawned outside of a surface. Deleting...
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage] Error parsing BSML
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage] System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Reflection.TargetException: Non-static field requires a target
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at System.Reflection.RuntimeFieldInfo.GetValue (System.Object obj) [0x0000b] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at SM64BS.UI.SettingsViewController.SetupPluginsList () [0x00001] in A:\Downloads\SM64BS-master\SM64BS\UI\SettingsViewController.cs:189 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at SM64BS.UI.SettingsViewController.PostParse () [0x000c8] in A:\Downloads\SM64BS-master\SM64BS\UI\SettingsViewController.cs:183 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]    --- End of inner exception stack trace ---
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at BeatSaberMarkupLanguage.Parser.BSMLAction.Invoke (System.Object[] parameters) [0x00000] in BeatSaberMarkupLanguage\Parser\BSMLAction.cs:24 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at BeatSaberMarkupLanguage.BSMLParser+<>c__DisplayClass13_0.<Parse>b__1 () [0x00000] in BeatSaberMarkupLanguage\BSMLParser.cs:269 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at (wrapper delegate-invoke) <Module>.invoke_void()
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at BeatSaberMarkupLanguage.Parser.BSMLParserParams.EmitEvent (System.String ids) [0x00020] in BeatSaberMarkupLanguage\Parser\BSMLParserParams.cs:44 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at BeatSaberMarkupLanguage.BSMLParser.Parse (System.Xml.Linq.XContainer container, UnityEngine.GameObject parent, System.Object host) [0x0052d] in BeatSaberMarkupLanguage\BSMLParser.cs:284 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at BeatSaberMarkupLanguage.BSMLParser.Parse (System.String content, UnityEngine.GameObject parent, System.Object host) [0x00008] in BeatSaberMarkupLanguage\BSMLParser.cs:119 
+[ERROR @ 01:38:52 | BeatSaberMarkupLanguage]   at BeatSaberMarkupLanguage.ViewControllers.BSMLViewController.ParseWithFallback () [0x0000f] in BeatSaberMarkupLanguage\ViewControllers\BSMLViewController.cs:72 
+[CRITICAL @ 01:38:52 | UnityEngine] TargetException: Non-static field requires a target
+[CRITICAL @ 01:38:52 | UnityEngine] System.Reflection.RuntimeFieldInfo.GetValue (System.Object obj) (at <51fded79cd284d4d911c5949aff4cb21>:0)
+[CRITICAL @ 01:38:52 | UnityEngine] SM64BS.UI.SettingsViewController.SetupPluginsList () (at A:/Downloads/SM64BS-master/SM64BS/UI/SettingsViewController.cs:189)
+[CRITICAL @ 01:38:52 | UnityEngine] SM64BS.UI.SettingsViewController.PostParse () (at A:/Downloads/SM64BS-master/SM64BS/UI/SettingsViewController.cs:183)
+[CRITICAL @ 01:38:52 | UnityEngine] System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <51fded79cd284d4d911c5949aff4cb21>:0)
+[CRITICAL @ 01:38:52 | UnityEngine] Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+[CRITICAL @ 01:38:52 | UnityEngine] System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <51fded79cd284d4d911c5949aff4cb21>:0)
+[CRITICAL @ 01:38:52 | UnityEngine] System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at <51fded79cd284d4d911c5949aff4cb21>:0)
+[CRITICAL @ 01:38:52 | UnityEngine] BeatSaberMarkupLanguage.Parser.BSMLAction.Invoke (System.Object[] parameters) (at BeatSaberMarkupLanguage/Parser/BSMLAction.cs:24)
+[CRITICAL @ 01:38:52 | UnityEngine] BeatSaberMarkupLanguage.BSMLParser+<>c__DisplayClass13_0.<Parse>b__1 () (at BeatSaberMarkupLanguage/BSMLParser.cs:269)
+[CRITICAL @ 01:38:52 | UnityEngine] BeatSaberMarkupLanguage.Parser.BSMLParserParams.EmitEvent (System.String ids) (at BeatSaberMarkupLanguage/Parser/BSMLParserParams.cs:44)
+[CRITICAL @ 01:38:52 | UnityEngine] BeatSaberMarkupLanguage.BSMLParser.Parse (System.Xml.Linq.XContainer container, UnityEngine.GameObject parent, System.Object host) (at BeatSaberMarkupLanguage/BSMLParser.cs:284)
+[CRITICAL @ 01:38:52 | UnityEngine] BeatSaberMarkupLanguage.BSMLParser.Parse (System.String content, UnityEngine.GameObject parent, System.Object host) (at BeatSaberMarkupLanguage/BSMLParser.cs:119)
+[CRITICAL @ 01:38:52 | UnityEngine] BeatSaberMarkupLanguage.ViewControllers.BSMLViewController.ParseWithFallback () (at BeatSaberMarkupLanguage/ViewControllers/BSMLViewController.cs:78)
+[CRITICAL @ 01:38:52 | UnityEngine] BeatSaberMarkupLanguage.ViewControllers.BSMLAutomaticViewController.DidActivate (System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling) (at BeatSaberMarkupLanguage/ViewControllers/BSMLAutomaticViewController.cs:132)
+[CRITICAL @ 01:38:52 | UnityEngine] SM64BS.UI.SettingsViewController.DidActivate (System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling) (at A:/Downloads/SM64BS-master/SM64BS/UI/SettingsViewController.cs:170)
+[CRITICAL @ 01:38:52 | UnityEngine] HMUI.ViewController.__Activate (System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling) (at <91cd888f641a4b50811d7c30977309f8>:0)
+[CRITICAL @ 01:38:52 | UnityEngine] HMUI.Screen+<TransitionCoroutine>d__5.MoveNext () (at <91cd888f641a4b50811d7c30977309f8>:0)
+[CRITICAL @ 01:38:52 | UnityEngine] UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <6ef01846f2094996aa9c77a64b17827d>:0)
+[CRITICAL @ 01:38:52 | UnityEngine] UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[CRITICAL @ 01:38:52 | UnityEngine] HMUI.Screen:SetRootViewController(ViewController, AnimationType)
+[CRITICAL @ 01:38:52 | UnityEngine] SM64BS.UI.SettingsUIManager:CreateFloatingScreen() (at A:/Downloads/SM64BS-master/SM64BS/UI/SettingsUIManager.cs:43)
+[CRITICAL @ 01:38:52 | UnityEngine] SM64BS.Managers.MenuMarioManager:Initialize() (at A:/Downloads/SM64BS-master/SM64BS/Managers/MenuMarioManager.cs:74)
+[CRITICAL @ 01:38:52 | UnityEngine] Zenject.InitializableManager:DMD<Zenject.InitializableManager::Initialize>(InitializableManager)
+[CRITICAL @ 01:38:52 | UnityEngine] Zenject.MonoKernel:Initialize()
+[CRITICAL @ 01:38:52 | UnityEngine] Zenject.MonoKernel:Start()
+[DEBUG @ 01:38:52 | BeatSaberMarkupLanguage] Setting up default font fallbacks
+[DEBUG @ 01:38:53 | SongRankedBadge] OnMenuLoad
+[DEBUG @ 01:38:53 | Chirality] Registering: HorizontalStandard
+[DEBUG @ 01:38:53 | Chirality] Registering: HorizontalNoArrows
+[DEBUG @ 01:38:53 | Chirality] Registering: HorizontalOneSaber
+[DEBUG @ 01:38:53 | Chirality] Registering: HorizontalLawless
+[DEBUG @ 01:38:53 | Chirality] Registering: VerticalStandard
+[DEBUG @ 01:38:53 | Chirality] Registering: VerticalNoArrows
+[DEBUG @ 01:38:53 | Chirality] Registering: VerticalOneSaber
+[DEBUG @ 01:38:53 | Chirality] Registering: VerticalLawless
+[DEBUG @ 01:38:53 | Chirality] Registering: InvertedStandard
+[DEBUG @ 01:38:53 | Chirality] Registering: InvertedNoArrows
+[DEBUG @ 01:38:53 | Chirality] Registering: InvertedOneSaber
+[DEBUG @ 01:38:53 | Chirality] Registering: InvertedLawless
+[DEBUG @ 01:38:53 | Chirality] Registering: InverseStandard
+[DEBUG @ 01:38:53 | Chirality] Registering: InverseNoArrows
+[DEBUG @ 01:38:53 | Chirality] Registering: InverseOneSaber
+[DEBUG @ 01:38:53 | Chirality] Registering: InverseLawless
+[WARNING @ 01:38:53 | BeatSaberMarkupLanguage] Registering type handler BeatLeader.UI.BSML_Addons.Extensions.GenericSettingExtensionHandler for type BeatSaberMarkupLanguage.Components.Settings.GenericSetting that is already handled by BeatSaberMarkupLanguage.TypeHandlers.Settings.GenericSettingHandler! This may lead to unexpected behaviour in the future if type handlers share attributes with the same name.
+[WARNING @ 01:38:53 | BeatSaberMarkupLanguage] Registering type handler BeatLeader.UI.BSML_Addons.Extensions.GraphicExtensionHandler for type UnityEngine.UI.Graphic that is already handled by BeatSaberMarkupLanguage.TypeHandlers.GraphicHandler! This may lead to unexpected behaviour in the future if type handlers share attributes with the same name.
+[WARNING @ 01:38:53 | BeatSaberMarkupLanguage] Registering type handler BeatLeader.UI.BSML_Addons.Extensions.ImageViewExtensionHandler for type UnityEngine.RectTransform that is already handled by BeatSaberMarkupLanguage.TypeHandlers.RectTransformHandler! This may lead to unexpected behaviour in the future if type handlers share attributes with the same name.
+[WARNING @ 01:38:53 | BeatSaberMarkupLanguage] Registering type handler BeatLeader.UI.BSML_Addons.Extensions.ModalViewExtensionHandler for type HMUI.ModalView that is already handled by BeatSaberMarkupLanguage.TypeHandlers.ModalViewHandler! This may lead to unexpected behaviour in the future if type handlers share attributes with the same name.
+[DEBUG @ 01:38:53 | MultiplayerCore/MpPacketSerializer] Registered packet 'MultiplayerCore.Players.Packets.MpPerPlayerPacket' with id 'MpPerPlayerPacket'.
+[DEBUG @ 01:38:53 | MultiplayerCore/MpPacketSerializer] Registered packet 'MultiplayerCore.Players.Packets.GetMpPerPlayerPacket' with id 'GetMpPerPlayerPacket'.
+[DEBUG @ 01:38:53 | DataPuller] Initialize PartyData.
+[INFO @ 01:38:54 | UnityEngine] Look rotation viewing vector is zero
+[DEBUG @ 01:38:54 | BS_Utils] UserInfo found: 76561198311777034: Lucas on Steam
+[INFO @ 01:38:55 | SongCore] Finished loading cached hashes for 988 songs.
+[INFO @ 01:38:55 | SongCore] Finished loading cached durations for 988 songs.
+[INFO @ 01:38:55 | SongCore] Starting full song refresh
+[WARNING @ 01:38:55 | SongCore] Could not find rate for A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\3944b (Holy Fuck - Liam DW05)\Holy F lois.wav
+[WARNING @ 01:38:55 | SongCore] Failed to parse song length from audio file, approximating using map length. Song: A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\3944b (Holy Fuck - Liam DW05)
+[WARNING @ 01:38:55 | SongCore] Failed to parse song length from audio file. Song: A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\3944b (Holy Fuck - Liam DW05)
+[INFO @ 01:38:55 | SM64BS] Pushing SM64BS settings view...
+[CRITICAL @ 01:38:55 | UnityEngine] TargetParameterCountException: Number of parameters specified does not match the expected number.
+[CRITICAL @ 01:38:55 | UnityEngine] System.Reflection.RuntimeMethodInfo.ConvertValues (System.Reflection.Binder binder, System.Object[] args, System.Reflection.ParameterInfo[] pinfo, System.Globalization.CultureInfo culture, System.Reflection.BindingFlags invokeAttr) (at <51fded79cd284d4d911c5949aff4cb21>:0)
+[CRITICAL @ 01:38:55 | UnityEngine] System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <51fded79cd284d4d911c5949aff4cb21>:0)
+[CRITICAL @ 01:38:55 | UnityEngine] System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at <51fded79cd284d4d911c5949aff4cb21>:0)
+[CRITICAL @ 01:38:55 | UnityEngine] SM64BS.Patches.MainMenuFlowPatch.ShowSettingsView (MainFlowCoordinator __instance, System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling) (at A:/Downloads/SM64BS-master/SM64BS/Patches/MenuPatches.cs:27)
+[CRITICAL @ 01:38:55 | UnityEngine] _DidActivate_ShowSettingsView_ab54075d_e787_4240_be86_57f5e6fcca73.Patch (MainFlowCoordinator __instance, System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling) (at <a333e712e7cf4cc18e1ed66e43de393c>:0)
+[CRITICAL @ 01:38:55 | UnityEngine] (wrapper dynamic-method) MainFlowCoordinator.DMD<MainFlowCoordinator::DidActivate>(MainFlowCoordinator,bool,bool,bool)
+[CRITICAL @ 01:38:55 | UnityEngine] HMUI.FlowCoordinator.Activate (System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling) (at <91cd888f641a4b50811d7c30977309f8>:0)
+[CRITICAL @ 01:38:55 | UnityEngine] HMUI.FlowCoordinator.__StartOnScreenSystem (HMUI.ScreenSystem screenSystem) (at <91cd888f641a4b50811d7c30977309f8>:0)
+[CRITICAL @ 01:38:55 | UnityEngine] HMUI.HierarchyManager.StartWithFlowCoordinator (HMUI.FlowCoordinator flowCoordinator) (at <91cd888f641a4b50811d7c30977309f8>:0)
+[CRITICAL @ 01:38:55 | UnityEngine] MenuSceneSetup+<Start>d__3.MoveNext () (at <f0840f681bb0428c90700d5674a4f86e>:0)
+[CRITICAL @ 01:38:55 | UnityEngine] UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <6ef01846f2094996aa9c77a64b17827d>:0)
+[INFO @ 01:38:56 | BeatLeader] Login successful!
+[DEBUG @ 01:38:56 | BeatLeader] Request[-611216896]: https://api.beatleader.net/user
+[DEBUG @ 01:38:56 | BeatLeader] Request[-1871448120]: https://api.beatleader.net/leaderboards?page=1&count=500&date_from=1744434861&type=ranking&sortBy=timestamp
+[DEBUG @ 01:38:56 | BeatLeader] Request[1457699440]: https://api.beatleader.net/mod/lastVersions
+[DEBUG @ 01:38:56 | BeatLeader] Request[-683114328]: https://api.beatleader.net/mod/leaderboardContexts
+[DEBUG @ 01:38:56 | BeatLeader] Response[-1871448120]: 200
+[DEBUG @ 01:38:56 | BeatLeader] Response[-611216896]: 200
+[DEBUG @ 01:38:56 | BeatLeader] Response[1457699440]: 200
+[DEBUG @ 01:38:56 | BeatLeader] Response[-683114328]: 200
+[NOTICE @ 01:38:57 | SongCore] Folder: 'A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\3c7d9 (Ashed Wings - Darkrealm7)' is missing Info.dat file!
+[WARNING @ 01:38:58 | SongCore] Skipping missing or corrupt folder: 'A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\1ccd (I LOVE FIDGET SPINNERS - BananenTropfen)'
+[WARNING @ 01:38:58 | SongCore] System.UnauthorizedAccessException: Access to the path 'A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\1ccd (I LOVE FIDGET SPINNERS - BananenTropfen)' is denied.
+[WARNING @ 01:38:58 | SongCore]   at System.IO.Enumeration.FileSystemEnumerator`1[TResult].CreateDirectoryHandle (System.String path, System.Boolean ignoreNotFound) [0x0004d] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[WARNING @ 01:38:58 | SongCore]   at System.IO.Enumeration.FileSystemEnumerator`1[TResult]..ctor (System.String directory, System.IO.EnumerationOptions options) [0x00050] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[WARNING @ 01:38:58 | SongCore]   at System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator[TResult]..ctor (System.IO.Enumeration.FileSystemEnumerable`1[TResult] enumerable) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[WARNING @ 01:38:58 | SongCore]   at System.IO.Enumeration.FileSystemEnumerable`1[TResult]..ctor (System.String directory, System.IO.Enumeration.FileSystemEnumerable`1+FindTransform[TResult] transform, System.IO.EnumerationOptions options) [0x00042] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[WARNING @ 01:38:58 | SongCore]   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles (System.String directory, System.String expression, System.IO.EnumerationOptions options) [0x00014] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[WARNING @ 01:38:58 | SongCore]   at System.IO.Directory.InternalEnumeratePaths (System.String path, System.String searchPattern, System.IO.SearchTarget searchTarget, System.IO.EnumerationOptions options) [0x0003c] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[WARNING @ 01:38:58 | SongCore]   at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.EnumerationOptions enumerationOptions) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[WARNING @ 01:38:58 | SongCore]   at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
+[WARNING @ 01:38:58 | SongCore]   at SongCore.Loader+<>c__DisplayClass92_1.<RetrieveAllSongs>b__6 (System.String folder) [0x00000] in C:\Users\Meivyn\Downloads\SongCore\source\SongCore\Loader.cs:444 
+[WARNING @ 01:39:05 | SongCore] Could not find rate for A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\Play\Play.wav
+[WARNING @ 01:39:05 | SongCore] Failed to parse song length from audio file, approximating using map length. Song: A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\Play
+[WARNING @ 01:39:05 | SongCore] Failed to parse song length from audio file. Song: A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\Play
+[NOTICE @ 01:39:05 | SongCore] Folder: 'A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\SHAFFURU_DOWNLOADS' is missing Info.dat file!
+[NOTICE @ 01:39:05 | SongCore] Folder: 'A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomLevels\~HeyYa_Backups' is missing Info.dat file!
+[NOTICE @ 01:39:05 | SongCore] Folder: 'A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomWIPLevels\Cache' is missing Info.dat file!
+[NOTICE @ 01:39:05 | SongCore] Folder: 'A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomWIPLevels\~Sober Again_Backups' is missing Info.dat file!
+[ERROR @ 01:39:05 | SongCore] Failed to load custom level: A:\!BSManager\Installed Versions\BSManager\BSInstances\1.38.0\Beat Saber_Data\CustomWIPLevels\Tay K Returns To Dreamland 3
+[INFO @ 01:39:06 | SongCore] Loaded 989 new songs (989) in CustomLevels | 0 in separate folders) in 10.9714072 seconds
+[INFO @ 01:39:06 | SongCore] Saving cached hashes for 988 songs.
+[INFO @ 01:39:06 | SongCore] Saving cached durations for 988 songs.
+[INFO @ 01:39:06 | SongCore] Saving cached extra data for 1165 songs.
