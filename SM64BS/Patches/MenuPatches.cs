@@ -2,7 +2,6 @@
 using IPA.Utilities;
 using SiraUtil.Affinity;
 using SM64BS.UI;
-using System.Linq;
 using System.Reflection;
 using UnityEngine;
 using Zenject;
@@ -23,10 +22,21 @@ namespace SM64BS.Patches
         {
             if (!firstActivation) return;
 
-            Plugin.Log.Info("Pushing SM64BS settings view...");
-            typeof(MainFlowCoordinator)
-                .GetMethod("PresentViewController", BindingFlags.Instance | BindingFlags.NonPublic)
-                .Invoke(__instance, new object[] { _settingsViewController, null, false });
+            Plugin.Log.Info("Pushing SM64BS settings view to right screen...");
+
+            // Safely push onto the right screen view controller stack
+            var navController = __instance.rightScreenViewController;
+
+            if (navController != null && _settingsViewController != null)
+            {
+                typeof(FlowCoordinator)
+                    .GetMethod("PushViewControllerToNavigationController", BindingFlags.Instance | BindingFlags.NonPublic)
+                    ?.Invoke(__instance, new object[] { navController, _settingsViewController, null, false });
+            }
+            else
+            {
+                Plugin.Log.Error("Failed to get rightScreenViewController or SettingsViewController is null!");
+            }
         }
     }
 }

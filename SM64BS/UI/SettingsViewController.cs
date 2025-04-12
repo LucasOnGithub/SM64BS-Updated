@@ -185,6 +185,7 @@ namespace SM64BS.UI
 
         private void SetupPluginsList()
         {
+            // Make sure tableView is initialized
             var tableView = (TableView)AccessTools.Field(typeof(CustomListTableData), "tableView").GetValue(_pluginsListData);
             if (tableView == null)
             {
@@ -192,6 +193,7 @@ namespace SM64BS.UI
                 return;
             }
 
+            // Create a fresh list of cells
             List<CustomListTableData.CustomCellInfo> pluginCells = new List<CustomListTableData.CustomCellInfo>
     {
         new CustomListTableData.CustomCellInfo("Nothing", "Disable plugins", null)
@@ -202,6 +204,7 @@ namespace SM64BS.UI
                 pluginCells.Add(new CustomListTableData.CustomCellInfo(plugin.Name, plugin.Author, null));
             }
 
+            // Set the new data
             tableView.ReloadData();
 
             int selectedPluginIndex = Plugin.Settings.SelectedPluginIndex;
@@ -213,6 +216,7 @@ namespace SM64BS.UI
                 cell.GetField<TextMeshProUGUI, LevelListTableCell>("_songAuthorText").transform.localPosition = new Vector3(-28.5f, -5.85f);
             }
 
+            // Remove italics/skew
             foreach (ImageView iv in tableView.GetComponentsInChildren<ImageView>(true))
             {
                 iv.SetField("_skew", 0.0f);
@@ -308,7 +312,11 @@ namespace SM64BS.UI
             {
                 tm.transform.localPosition = Vector3.zero;
             }
-
+            if (_pluginsListData == null)
+            {
+                Plugin.Log?.Error("SetupPluginsList: _pluginsListData is null!");
+                return;
+            }
             var tableView = (TableView)AccessTools.Field(typeof(CustomListTableData), "tableView").GetValue(_pluginsListData);
             int selectedPluginIndex = Plugin.Settings.SelectedPluginIndex;
             tableView.SelectCellWithIdx(selectedPluginIndex);

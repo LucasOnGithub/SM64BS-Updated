@@ -49,12 +49,22 @@ namespace SM64BS
             Log = logger;
         }
 
+
         [OnEnable]
         public void OnEnable()
         {
             Log.Info("SM64BS has been enabled.");
-            // You can initialize your managers or hooks here
+
+            if (ResourceUtilities.RomPath == null)
+            {
+                Log.Error("ROM path is null. Please place baserom.us.z64 in the Beat Saber directory.");
+            }
+            else
+            {
+                Log.Info($"ROM path found: {ResourceUtilities.RomPath}");
+            }
         }
+
 
         [OnDisable]
         public void OnDisable()

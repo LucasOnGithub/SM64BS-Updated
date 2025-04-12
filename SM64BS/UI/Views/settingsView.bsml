@@ -65,26 +65,15 @@
 						</scroll-view>
 					</horizontal>
 				</tab>
+
+
 				<tab tab-name='Plugins' tags='mario-settings-tab'>
 					<horizontal horizontal-fit='PreferredSize' preferred-width='75' vertical-fit='PreferredSize' preferred-height='45' pad-top='-5'>
 						<scroll-view child-control-width='false'>
-							<list id='plugins-list' expand-cell='true' select-cell='plugin-select' />
+							<list id="plugins-list" select-cell="plugin-select" />
 						</scroll-view>
 					</horizontal>
 				</tab>
-
-				<custom-list id="plugins-list"
-					reuse-cells="true"
-					select-cell-on-click="true"
-					on-select="plugin-select"
-					table-type="LevelListTableCell"
-					cell-size="10"
-					hide-scroll-buttons="false"
-					scrollable="true"
-					preferred-height="40"
-					preferred-width="70"
-			/>
-
 			</vertical>
 		</vertical>
 	</modal>
