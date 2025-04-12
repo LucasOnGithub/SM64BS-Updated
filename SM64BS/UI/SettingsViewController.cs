@@ -185,19 +185,28 @@ namespace SM64BS.UI
 
         private void SetupPluginsList()
         {
-            var dataList = (List<CustomListTableData.CustomCellInfo>)AccessTools.Field(typeof(CustomListTableData), "data").GetValue(_pluginsListData);
+            // Make sure tableView is initialized
             var tableView = (TableView)AccessTools.Field(typeof(CustomListTableData), "tableView").GetValue(_pluginsListData);
+            if (tableView == null)
+            {
+                Plugin.Log.Warn("SetupPluginsList: tableView is null");
+                return;
+            }
 
-            dataList.Clear();
-
-            dataList.Add(new CustomListTableData.CustomCellInfo("Nothing", "Disable plugins", null));
+            // Create a fresh list of cells
+            List<CustomListTableData.CustomCellInfo> pluginCells = new List<CustomListTableData.CustomCellInfo>
+    {
+        new CustomListTableData.CustomCellInfo("Nothing", "Disable plugins", null)
+    };
 
             foreach (CustomPlugin plugin in Plugin.LoadedCustomPlugins.Values)
             {
-                dataList.Add(new CustomListTableData.CustomCellInfo(plugin.Name, plugin.Author, null));
+                pluginCells.Add(new CustomListTableData.CustomCellInfo(plugin.Name, plugin.Author, null));
             }
 
+            // Set the new data
             tableView.ReloadData();
+
             int selectedPluginIndex = Plugin.Settings.SelectedPluginIndex;
 
             foreach (LevelListTableCell cell in tableView.visibleCells)
@@ -207,6 +216,7 @@ namespace SM64BS.UI
                 cell.GetField<TextMeshProUGUI, LevelListTableCell>("_songAuthorText").transform.localPosition = new Vector3(-28.5f, -5.85f);
             }
 
+            // Remove italics/skew
             foreach (ImageView iv in tableView.GetComponentsInChildren<ImageView>(true))
             {
                 iv.SetField("_skew", 0.0f);
@@ -219,6 +229,7 @@ namespace SM64BS.UI
             tableView.ScrollToCellWithIdx(selectedPluginIndex, TableView.ScrollPositionType.Beginning, false);
             tableView.SelectCellWithIdx(selectedPluginIndex);
         }
+
 
         [UIAction("close-modal")]
         private void HideModalActionHandler()

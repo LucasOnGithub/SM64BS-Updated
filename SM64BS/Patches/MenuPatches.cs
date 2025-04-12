@@ -1,28 +1,32 @@
-﻿using LibSM64;
+﻿using HMUI;
+using IPA.Utilities;
 using SiraUtil.Affinity;
-using SM64BS.Managers;
-using SM64BS.Plugins;
-using System;
-using System.Collections.Generic;
+using SM64BS.UI;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
+using UnityEngine;
 using Zenject;
 
 namespace SM64BS.Patches
 {
-    internal class MenuPatches : IAffinity
+    internal class MainMenuFlowPatch : IAffinity
     {
-        [Inject] private AppMarioManager _appMarioManager;
-        [Inject] private BuiltInPluginLoader _builtInPluginLoader;
+        [Inject] private readonly SettingsViewController _settingsViewController;
 
         [AffinityPostfix]
-        [AffinityPatch(typeof(SettingsFlowCoordinator), "ApplySettings")]
-        internal void Prefix()
+        [AffinityPatch(typeof(MainFlowCoordinator), "DidActivate")]
+        internal void ShowSettingsView(
+            MainFlowCoordinator __instance,
+            bool firstActivation,
+            bool addedToHierarchy,
+            bool screenSystemEnabling)
         {
-            Plugin.Log.Info("Applied settings");
-            _builtInPluginLoader.UnloadPlugins();
-            _appMarioManager.Dispose();
+            if (!firstActivation) return;
+
+            Plugin.Log.Info("Pushing SM64BS settings view...");
+            typeof(MainFlowCoordinator)
+                .GetMethod("PresentViewController", BindingFlags.Instance | BindingFlags.NonPublic)
+                .Invoke(__instance, new object[] { _settingsViewController, null, false });
         }
     }
 }

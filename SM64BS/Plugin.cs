@@ -42,5 +42,25 @@ namespace SM64BS
             zenject.Install<SM64BSMenuInstaller>(Location.Menu);
             zenject.Install<SM64BSGameInstaller>(Location.StandardPlayer);
         }
+
+        [Init]
+        public void Init(IPA.Logging.Logger logger)
+        {
+            Log = logger;
+        }
+
+        [OnEnable]
+        public void OnEnable()
+        {
+            Log.Info("SM64BS has been enabled.");
+            // You can initialize your managers or hooks here
+        }
+
+        [OnDisable]
+        public void OnDisable()
+        {
+            Log.Info("SM64BS has been disabled.");
+        }
+
     }
 }
